@@ -24,7 +24,7 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 
 try:
     # Navegar a la página de Plusvalía para locales comerciales en alquiler en Quito
-    driver.get("https://www.plusvalia.com/locales-comerciales-en-alquiler-en-quito.html")
+    driver.get("https://www.plusvalia.com/")
     time.sleep(5)  # Esperar un momento para evitar detección de bot
     print(f"Título de la página: {driver.title}")
 
